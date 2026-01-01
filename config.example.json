@@ -1,0 +1,47 @@
+{
+    "binance": {
+        "apiKey": "",
+        "secret": "",
+        "leverage": 1.0
+    },
+    "dingtalk_webhook": "",
+    "enable_dingtalk_notification": false,
+    "monitor_interval": 60,
+    "leverage": 6,
+    "max_total_profit_loss_usdt": -10.0,
+    "min_total_profit_usdt": null,
+    "stop_loss": {
+        "stop_loss_pct": 1,
+        "lowest_trail_profit_threshold": 0.2,
+        "lowest_trail_stop_loss_pct": 0.2,
+        "low_trail_profit_threshold": 1.2,
+        "low_trail_stop_loss_pct": 0.2,
+        "low_mid_trail_profit_threshold": 1.3,
+        "low_mid_trail_stop_loss_pct": 0.3,
+        "low_mid2_trail_profit_threshold": 1.5,
+        "low_mid2_trail_stop_loss_pct": 0.3,
+        "first_trail_profit_threshold": 2.0,
+        "trail_stop_loss_pct": 0.3,
+        "first_mid_trail_profit_threshold": 2.5,
+        "first_mid_trail_stop_loss_pct": 0.3,
+        "second_trail_profit_threshold": 3.0,
+        "higher_trail_stop_loss_pct": 0.25,
+        "second_mid_trail_profit_threshold": 4.0,
+        "second_mid_trail_stop_loss_pct": 0.25,
+        "third_trail_profit_threshold": 5.0,
+        "third_trail_stop_loss_pct": 0.2,
+        "third_mid_trail_profit_threshold": 7.5,
+        "third_mid_trail_stop_loss_pct": 0.2,
+        "fourth_trail_profit_threshold": 10.0,
+        "fourth_trail_stop_loss_pct": 0.2
+    },
+    "tradingPairs": {
+        "RIVER-USDT-SWAP": {
+            "long_amount_usdt": 20,
+            "short_amount_usdt": 20,
+            "value_multiplier": 2.5,
+            "ema": 240
+        }
+    }
+}
+
